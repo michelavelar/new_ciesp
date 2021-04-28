@@ -1,0 +1,99 @@
+#map-regional {
+    width: 100%;
+    min-height: 550px;
+    background: rgb(179, 178, 178);
+}
+
+.ciesp-background {
+    background-color: #D10006;
+    width: 100%;
+}
+.acessibilidade ul li a span {
+    background: #FFFFFF;
+    color: #000000;
+}
+
+.header-magazine .brand {
+    padding: 5px 0;
+    min-height: 120px;
+}
+
+.ciesp-background .form-search .btn-transparent {
+    background: #990000 !important;
+    color: #FFFFFF !important;
+    border: 1px solid #990000 !important;
+    outline: none !important;
+    margin-left: -4px;
+}
+
+.ciesp-background .form-search .btn-transparent:hover {
+    background: rgba(0,0,0,.5) !important;
+}
+
+.ciesp-background .form-search .form-control {
+    background: #990000 !important;
+    color: #FFFFFF !important;
+    border: 0px solid #FFFFFF !important;
+    outline: none !important;
+    margin: 0;
+}
+
+.ciesp-background .form-search .form-control::placeholder { color: rgba(0,0,0,.5); }
+
+
+.ciesp-background .form-search .input-group-append {
+    display: inline-block;
+}
+.header-magazine .navigation nav {
+    padding: 0 0 0.5rem 0;
+}
+
+.header-magazine .navigation nav .nav-link strong{ color: #999 }
+
+.banners-sidebar {
+    margin: 0 0 10px 0;
+}
+
+a, a:hover {
+    color: #D10006;
+}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #FFFFFF;
+    background-color: #D10006;
+}
+
+.search-filter {
+    list-style: none !important;
+    width: 100%;
+    display: inline-block;
+    margin: 10px 0 20px 0;
+    padding: 0;
+}
+
+.search-filter li {
+    text-align: left;
+}
+.search-filter li input {
+    width: auto;
+    height: auto;
+    margin-right: 5px;
+}
+.search-filter li label {
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.gsc-search-button-v2, .gsc-search-button-v2:hover, .gsc-search-button-v2:focus {
+    border-color: #DC3545 !important;
+    background-color: #DC3545 !important;
+    background-image: none;
+    filter: none;
+}
+.gsc-search-button-v2 {
+    font-size: 0;
+    padding: 9px 27px !important;
+    width: auto;
+    vertical-align: middle;
+    border: 0 !important;
+    border-radius: 0 !important;
+}
