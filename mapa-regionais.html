@@ -1,0 +1,892 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>CIESP</title>
+  <link rel="stylesheet" href="assets/css/uikit.min.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.10.24/css/dataTables.bootstrap4.min.css">
+</head>
+<body class="danger">
+    <!-- ciesp background -->
+    <div class="ciesp-background text-white">
+        <!-- acessibilidade -->
+<div class="container d-print-none">
+    <div class="row">
+        <div class="col-sm-12 acessibilidade">
+            <ul>
+                <li class="d-none"><a accesskey="0" title="Acesso a home do Site" href="/">Home</a></li>
+                <li><a class="text-white" accesskey="1" href="#conteudo" title="Clique aqui para ir para o conteúdo">Ir para o conteúdo <span>1</span></a></li>
+                <li><a class="text-white" accesskey="2" href="#menu" title="Clique aqui para ir para o menu">Ir para o menu <span>2</span></a></li>
+                <li><a class="text-white" accesskey="3" href="#busca" title="Clique aqui para ir para a caixa de busca">Ir para a busca <span>3</span></a></li>
+                <li><a class="text-white" accesskey="4" href="#rodape" title="Clique aqui para ir para o rodapé">Ir para o rodapé <span>4</span></a></li>
+            </ul>
+            <ul>    
+                <li><a class="text-white" accesskey="5" href="#" title="Clique aqui para a acessar a nossa documentação sobre Acessibilidade">Acessibilidade <span>5</span></a></li>
+                <li><a class="text-white" accesskey="6" href="#" id="contrast" title="Clique aqui para ativar o Alto Contraste">Alto Contraste <span>6</span></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- /acessibilidade -->        <!-- redes sociais -->
+<div class="navContainer d-print-none">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                
+                <ul class="socialNav">
+                    <li class="social flickr bgAnimated">
+                        <a href="index.html" accesskey="k" title="Flickr">
+                            <i class="fab fa-flickr" aria-hidden="true">
+                                <span class="sr-only">Clique aqui para acessar o Flickr</span>
+                            </i>
+                        </a>
+                    </li>
+                    <li class="social slideshare bgAnimated">
+                        <a href="index.html" accesskey="s" title="Slideshare">
+                            <i class="fab fa-slideshare" aria-hidden="true">
+                                <span class="sr-only">Clique aqui para acessar o Slideshare</span>
+                            </i>
+                        </a>
+                    </li>
+                    <li class="social instagram bgAnimated">
+                        <a href="index.html" accesskey="i" title="Instagram">
+                            <i class="fab fa-instagram" aria-hidden="true">
+                                <span class="sr-only">Clique aqui para acessar o Instagram</span>
+                            </i>
+                        </a>
+                    </li>
+                    <li class="social linkedin bgAnimated">
+                        <a href="index.html" accesskey="l" title="Linkedin">
+                            <i class="fab fa-linkedin" aria-hidden="true">
+                                <span class="sr-only">Clique aqui para acessar o Linkedin</span>
+                            </i>
+                        </a>
+                    </li>
+                    <li class="social youtube bgAnimated">
+                        <a href="index.html" accesskey="y" title="YouTube">
+                            <i class="fab fa-youtube" aria-hidden="true">
+                                <span class="sr-only">Clique aqui para acessar o YouTube</span>
+                            </i>
+                        </a>
+                    </li>
+                    <li class="social twitter bgAnimated">
+                        <a href="index.html" accesskey="t" title="Twitter">
+                            <i class="fab fa-twitter" aria-hidden="true">
+                                <span class="sr-only">Clique aqui para acessar o Twitter</span>
+                            </i>
+                        </a>
+                    </li>
+                    <li class="social facebook bgAnimated">
+                        <a href="index.html" accesskey="f" title="Facebook">
+                            <i class="fab fa-facebook-f" aria-hidden="true">
+                                <span class="sr-only">Clique aqui para acessar o Facebook</span>
+                            </i>
+                        </a>
+                    </li>
+                    <li class="socialBrand">
+                        <a href="index.html" accesskey="1" title="SITE" target="_blank">
+                            FIESP
+                        </a>
+                    </li>
+                    <li class="socialBrand">
+                        <a href="index.html" accesskey="2" title="SITE" target="_blank">
+                            SESI
+                        </a>
+                    </li>
+                    <li class="socialBrand">
+                        <a href="index.html" accesskey="3" title="SITE" target="_blank">
+                            SENAI
+                        </a>
+                    </li>
+                    <li class="socialBrand">
+                        <a href="index.html" accesskey="4" title="SITE" target="_blank">
+                            IRS
+                        </a>
+                    </li>      
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /barra redes sociais -->    </div>
+
+    <div class="header-magazine">
+        <div class="brand ciesp-background">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <a href="index.html" class="logo"><img src="http://www.ciesp.com.br/wp-content/themes/ciesp/img/h1-logo-ciesp.png"></a>
+
+                <form class="input-group form-search form-inline" action="search.html">
+                    <input placeholder="Buscar..." type="search" class="form-control">
+                    <div class="input-group-append">
+                        <button type="submit" class="btn btn-transparent"><i class="fas fa-search"></i></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>        <div class="navigation">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container navbar-wrapper">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#header100-m" aria-controls="header100-m" aria-expanded="false" aria-label="Alterna navegação">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        
+                        <div class="collapse navbar-collapse d-sm-block d-md-block" id="header100-m">
+                            <ul class="nav navbar-nav navbar-left" id="u100-m">
+                                <li class="nav-item">
+                                    <a href="" class="nav-link ui-box bottom-leftToRight"><strong>Áreas de Atuação</strong></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="servicos.html" class="nav-link ui-box bottom-leftToRight"><strong>Serviços</strong></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="archive-agenda.html" class="nav-link ui-box bottom-leftToRight"><strong>Agenda</strong></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="archive.html" class="nav-link ui-box bottom-leftToRight"><strong>Notícias</strong></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="archive-pesquisas.html" class="nav-link ui-box bottom-leftToRight"><strong>Pesquisas e Publicações</strong></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="https://cursos.ciesp.com.br/" class="nav-link ui-box bottom-leftToRight"><strong>Cursos</strong></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="multimidia.html" class="nav-link ui-box bottom-leftToRight"><strong>Multimídia</strong></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="" class="nav-link ui-box bottom-leftToRight"><strong>Atendimento</strong></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" data-toggle="modal" data-target="#regionais" class="nav-link ui-box bottom-leftToRight"><strong>Diretorias Regionais</strong></a>
+                                </li>
+                            </ul>
+                        </div>
+
+
+                        <div class="collapse navbar-collapse d-none d-md-none d-lg-block" id="header100">
+                            <ul class="nav navbar-nav navbar-left" id="u100">
+                                <li class="nav-item">
+                                    <a href="#" data-toggle="modal" data-target="#modalArea" class="nav-link ui-box bottom-leftToRight"><strong>Áreas de Atuação</strong></a>
+                                </li>                                
+                                <li class="nav-item">
+                                    <a href="servicos.html" class="nav-link ui-box bottom-leftToRight"><strong>Serviços</strong></a>
+                                </li>
+                                <li class="nav-item dropdown has-mega-menu">
+                                    <a href="archive-agenda.html" class="nav-link ui-box bottom-leftToRight">
+                                        <strong>Agenda</strong>
+                                        <i class="fas fa-angle-down"></i>
+                                    </a>
+                                    <ul class="mega-menu dropdown-menu">
+                                        <li>
+                                            <div class="inner-box">
+                                                <!-- carrossel imagens -->
+                                                <div class="carousel-default d-print-none">
+                                                    <div class="jcarousel-wrapper" itemscope itemtype="http://schema.org/Article">
+                                                        <div class="jcarousel j01" data-control-prev="j01-control-prev" data-control-next="j01-control-next">
+                                                            <ul>
+                                                                <li class="event" itemscope itemtype="http://schema.org/Event">
+                                                                    <a href="single-agenda.html" title="" itemprop="url" class="ui-box topBottom-leftRightCorner">
+                                                                        <div class="label"><span>Grátis</span></div>
+                                                                        <span class="ui-border-element">
+                                                                            <img src="http://placehold.it/640x440" alt="" itemprop="image" class="img-fluid">
+                                                                        </span>
+                                                                        <strong class="event-date" itemprop="startDate" content="2013-09-14T21:30">
+                                                                            <i class="far fa-calendar-alt"></i> 19/09/2018
+                                                                        </strong>
+                                                                    </a>
+                                                                    <div class="event-excerpt">
+                                                                        <h3 itemprop="name"><a href="single-agenda.html" title="" itemprop="url">Encontro de empreendedores Brasil - Japão</a></h3>                               
+                                                                    </div>                               
+                                                                </li>
+                                                                <li class="event" itemscope itemtype="http://schema.org/Event">
+                                                                    <a href="single-agenda.html" title="" itemprop="url" class="ui-box topBottom-leftRightCorner">
+                                                                        <div class="label"><span>Grátis</span></div>
+                                                                        <span class="ui-border-element">
+                                                                            <img src="http://placehold.it/640x440" alt="" itemprop="image" class="img-fluid">
+                                                                        </span>
+                                                                        <strong class="event-date" itemprop="startDate" content="2013-09-14T21:30">
+                                                                            <i class="far fa-calendar-alt"></i> 19/09/2018
+                                                                        </strong>
+                                                                    </a>
+                                                                    <div class="event-excerpt">
+                                                                        <h3 itemprop="name"><a href="single-agenda.html" title="" itemprop="url">Encontro de empreendedores Brasil - Japão</a></h3>                               
+                                                                    </div>                               
+                                                                </li>
+                                                                <li class="event" itemscope itemtype="http://schema.org/Event">
+                                                                    <a href="single-agenda.html" title="" itemprop="url" class="ui-box topBottom-leftRightCorner">
+                                                                        <div class="label"><span>Grátis</span></div>
+                                                                        <span class="ui-border-element">
+                                                                            <img src="http://placehold.it/640x440" alt="" itemprop="image" class="img-fluid">
+                                                                        </span>
+                                                                        <strong class="event-date" itemprop="startDate" content="2013-09-14T21:30">
+                                                                            <i class="far fa-calendar-alt"></i> 19/09/2018
+                                                                        </strong>
+                                                                    </a>
+                                                                    <div class="event-excerpt">
+                                                                        <h3 itemprop="name"><a href="single-agenda.html" title="" itemprop="url">Encontro de empreendedores Brasil - Japão</a></h3>                               
+                                                                    </div>                               
+                                                                </li>
+                                                                <li class="event" itemscope itemtype="http://schema.org/Event">
+                                                                    <a href="single-agenda.html" title="" itemprop="url" class="ui-box topBottom-leftRightCorner">
+                                                                        <div class="label"><span>Grátis</span></div>
+                                                                        <span class="ui-border-element">
+                                                                            <img src="http://placehold.it/640x440" alt="" itemprop="image" class="img-fluid">
+                                                                        </span>
+                                                                        <strong class="event-date" itemprop="startDate" content="2013-09-14T21:30">
+                                                                            <i class="far fa-calendar-alt"></i> 19/09/2018
+                                                                        </strong>
+                                                                    </a>
+                                                                    <div class="event-excerpt">
+                                                                        <h3 itemprop="name"><a href="single-agenda.html" title="" itemprop="url">Encontro de empreendedores Brasil - Japão</a></h3>                               
+                                                                    </div>                               
+                                                                </li>
+                                                                <li class="event" itemscope itemtype="http://schema.org/Event">
+                                                                    <a href="single-agenda.html" title="" itemprop="url" class="ui-box topBottom-leftRightCorner">
+                                                                        <div class="label"><span>Grátis</span></div>
+                                                                        <span class="ui-border-element">
+                                                                            <img src="http://placehold.it/640x440" alt="" itemprop="image" class="img-fluid">
+                                                                        </span>
+                                                                        <strong class="event-date" itemprop="startDate" content="2013-09-14T21:30">
+                                                                            <i class="far fa-calendar-alt"></i> 19/09/2018
+                                                                        </strong>
+                                                                    </a>
+                                                                    <div class="event-excerpt">
+                                                                        <h3 itemprop="name"><a href="#" title="" itemprop="url">Encontro de empreendedores Brasil - Japão</a></h3>                               
+                                                                    </div>                               
+                                                                </li>
+                                                                <li class="event" itemscope itemtype="http://schema.org/Event">
+                                                                    <a href="single-agenda.html" title="" itemprop="url" class="ui-box topBottom-leftRightCorner">
+                                                                        <div class="label"><span>Grátis</span></div>
+                                                                        <span class="ui-border-element">
+                                                                            <img src="http://placehold.it/640x440" alt="" itemprop="image" class="img-fluid">
+                                                                        </span>
+                                                                        <strong class="event-date" itemprop="startDate" content="2013-09-14T21:30">
+                                                                            <i class="far fa-calendar-alt"></i> 19/09/2018
+                                                                        </strong>
+                                                                    </a>
+                                                                    <div class="event-excerpt">
+                                                                        <h3 itemprop="name"><a href="single-agenda.html" title="" itemprop="url">Encontro de empreendedores Brasil - Japão</a></h3>                               
+                                                                    </div>                               
+                                                                </li>
+                                                                <li class="event" itemscope itemtype="http://schema.org/Event">
+                                                                    <a href="single-agenda.html" title="" itemprop="url" class="ui-box topBottom-leftRightCorner">
+                                                                        <div class="label"><span>Grátis</span></div>
+                                                                        <span class="ui-border-element">
+                                                                            <img src="http://placehold.it/640x440" alt="" itemprop="image" class="img-fluid">
+                                                                        </span>
+                                                                        <strong class="event-date" itemprop="startDate" content="2013-09-14T21:30">
+                                                                            <i class="far fa-calendar-alt"></i> 19/09/2018
+                                                                        </strong>
+                                                                    </a>
+                                                                    <div class="event-excerpt">
+                                                                        <h3 itemprop="name"><a href="single-agenda.html" title="" itemprop="url">Encontro de empreendedores Brasil - Japão</a></h3>                               
+                                                                    </div>                               
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <a href="#" title="Voltar" class="jcarousel-control-prev j01-control-prev"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
+                                                        <a href="#" title="Avançar" class="jcarousel-control-next j01-control-next"><i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                                                    </div>
+                                                </div>
+                                                <!-- /carrossel imagens -->
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown has-mega-menu">
+                                    <a class="nav-link ui-box bottom-leftToRight" href="archive.html">
+                                        <strong>Notícias</strong>
+                                        <i class="fas fa-angle-down"></i>
+                                    </a>
+                                    <ul class="mega-menu dropdown-menu">
+                                      <li>
+                                        <div class="inner-box">
+                                            <!-- carrossel imagens -->
+                                            <div class="carousel-default d-print-none">
+                                                <div class="jcarousel-wrapper" itemscope itemtype="http://schema.org/Article">
+                                                    <div class="jcarousel j01" data-control-prev="j01-control-prev" data-control-next="j01-control-next">
+                                                        <ul>
+                                                            <li>
+                                                                <a href="single.html" title="Clique aqui para acessar este site" itemprop="url" class="ui-box topBottom-leftRightCorner">
+                                                                    <span class="ui-border-element">
+                                                                        <img src="http://placehold.it/640x440" alt="Descrição da Imagem" itemprop="image" class="img-fluid">
+                                                                    </span>
+                                                                </a>
+                                                                <a href="single.html" class="category" title="Confira todas as notícias na categoria: Cotidiano" itemprop="about">Cotidiano</a>
+                                                                <h2 itemprop="headline"><a href="single.html" title="O que realmente interessa ao Brasil" itemprop="url">O que realmente interessa ao Brasil</a></h2>
+                                                            </li>
+                                                            <li>
+                                                                <a href="single.html" title="Clique aqui para acessar este site" itemprop="url" class="ui-box topBottom-leftRightCorner">
+                                                                    <span class="ui-border-element">
+                                                                        <img src="http://placehold.it/640x440" alt="Descrição da Imagem" itemprop="image" class="img-fluid">
+                                                                    </span>
+                                                                </a>
+                                                                <a href="single.html" class="category" title="Confira todas as notícias na categoria: Mito" itemprop="about">Mito</a>
+                                                                <h2 itemprop="headline"><a href="single.html" title="O que realmente interessa ao Brasil" itemprop="url">O que realmente interessa ao Brasil 02</a></h2>
+                                                            </li>
+                                                            <li>
+                                                                <a href="single.html" title="Clique aqui para acessar este site" itemprop="url" class="ui-box topBottom-leftRightCorner">
+                                                                    <span class="ui-border-element">
+                                                                        <img src="http://placehold.it/640x440" alt="Descrição da Imagem" itemprop="image" class="img-fluid">
+                                                                    </span>
+                                                                </a>
+                                                                <a href="single.html" class="category" title="Confira todas as notícias na categoria: Felicidade" itemprop="about">Felicidade</a>
+                                                                <h2 itemprop="headline"><a href="single.html" title="O que realmente interessa ao Brasil" itemprop="url">O que realmente interessa ao Brasil 03</a></h2>
+                                                            </li>
+                                                            <li>
+                                                                <a href="single.html" title="Clique aqui para acessar este site" itemprop="url" class="ui-box topBottom-leftRightCorner">
+                                                                    <span class="ui-border-element">
+                                                                        <img src="http://placehold.it/640x440" alt="Descrição da Imagem" itemprop="image" class="img-fluid">
+                                                                    </span>
+                                                                </a>
+                                                                <a href="single.html" class="category" title="Confira todas as notícias na categoria: Economia" itemprop="about">Economia</a>
+                                                                <h2 itemprop="headline"><a href="single.html" title="O que realmente interessa ao Brasil" itemprop="url">O que realmente interessa ao Brasil 04</a></h2>
+                                                            </li>
+                                                            <li>
+                                                                <a href="single.html" title="Clique aqui para acessar este site" itemprop="url" class="ui-box topBottom-leftRightCorner">
+                                                                    <span class="ui-border-element">
+                                                                        <img src="http://placehold.it/640x440" alt="Descrição da Imagem" itemprop="image" class="img-fluid">
+                                                                    </span>
+                                                                </a>
+                                                                <a href="single.html" class="category" title="Confira todas as notícias na categoria: Economia" itemprop="about">Economia</a>
+                                                                <h2 itemprop="headline"><a href="single.html" title="O que realmente interessa ao Brasil" itemprop="url">O que realmente interessa ao Brasil 04</a></h2>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <a href="#" title="Voltar" class="jcarousel-control-prev j01-control-prev"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
+                                                    <a href="#" title="Avançar" class="jcarousel-control-next j01-control-next"><i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                                                </div>
+                                            </div>
+                                            <!-- /carrossel imagens -->
+                                        </div>
+                                      </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="https://cursos.ciesp.com.br/" class="nav-link ui-box bottom-leftToRight"><strong>Cursos</strong></a>
+                                </li>
+                                <li class="nav-item dropdown has-mega-menu">
+                                    <a class="nav-link ui-box bottom-leftToRight" href="multimidia.html">
+                                        <strong>Multimídia</strong>
+                                        <i class="fas fa-angle-down"></i>
+                                    </a>
+                                    <ul class="mega-menu dropdown-menu">
+                                        <li>   
+                                        <div class="inner-box">
+                                            <!-- carousel -->
+                                            <div class="carousel-default d-print-none">
+                                                <div class="jcarousel-wrapper" itemscope itemtype="http://schema.org/Article">
+                                                    <div class="jcarousel j01" data-control-prev="j01-control-prev" data-control-next="j01-control-next">
+                                                        <ul>
+                                                            <li>
+                                                                <a href="single-multimidia.html" title="My Title" itemprop="url" class="ui-box topBottom-leftRightCorner thumbnail-video">
+                                                                    <span class="ui-border-element">
+                                                                        <img src="http://placehold.it/640x440" alt="Image" itemprop="image" class="img-fluid">
+                                                                    </span>
+                                                                    <strong class="button-play"><i class="fa fa-play fa-2x"></i></strong>
+                                                                </a>
+                                                                <a href="single-multimidia.html" class="category" title="My Title" itemprop="about">Category 1</a>
+                                                                <h2 itemprop="headline"><a href="single-multimidia.html" title="News" itemprop="url">News</a></h2>
+                                                            </li>
+                                                            <li>
+                                                                <a href="single-multimidia.html" title="My Title" itemprop="url" class="ui-box topBottom-leftRightCorner thumbnail-video">
+                                                                    <span class="ui-border-element">
+                                                                        <img src="http://placehold.it/640x440" alt="Image" itemprop="image" class="img-fluid">
+                                                                    </span>
+                                                                    <strong class="button-play"><i class="fa fa-play fa-2x"></i></strong>
+                                                                </a>
+                                                                <a href="single-multimidia.html" class="category" title="My Title" itemprop="about">Category</a>
+                                                                <h2 itemprop="headline"><a href="single-multimidia.html" title="News" itemprop="url">News 02</a></h2>
+                                                            </li>
+                                                            <li>
+                                                                <a href="single-multimidia.html" title="My Title" itemprop="url" class="ui-box topBottom-leftRightCorner thumbnail-video">
+                                                                    <span class="ui-border-element">
+                                                                        <img src="http://placehold.it/640x440" alt="Image" itemprop="image" class="img-fluid">
+                                                                    </span>
+                                                                    <strong class="button-play"><i class="fa fa-play fa-2x"></i></strong>
+                                                                </a>
+                                                                <a href="single-multimidia.html" class="category" title="My Title" itemprop="about">Category</a>
+                                                                <h2 itemprop="headline"><a href="single-multimidia.html" title="News" itemprop="url">News 03</a></h2>
+                                                            </li>
+                                                            <li>
+                                                                <a href="single-multimidia.html" title="My Title" itemprop="url" class="ui-box topBottom-leftRightCorner thumbnail-video">
+                                                                    <span class="ui-border-element">
+                                                                        <img src="http://placehold.it/640x440" alt="Image" itemprop="image" class="img-fluid">
+                                                                    </span>
+                                                                    <strong class="button-play"><i class="fa fa-play fa-2x"></i></strong>
+                                                                </a>
+                                                                <a href="single-multimidia.html" class="category" title="My Title" itemprop="about">Category</a>
+                                                                <h2 itemprop="headline"><a href="single-multimidia.html" title="News" itemprop="url">News 04</a></h2>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <a href="#" title="Back" class="jcarousel-control-prev j01-control-prev"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
+                                                    <a href="#" title="Next" class="jcarousel-control-next j01-control-next"><i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                                                </div>
+                                            </div>
+                                            <!-- /carousel -->
+                                        </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="archive-pesquisas.html" class="nav-link ui-box bottom-leftToRight"><strong>Pesquisas e Publicações</strong></a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle ui-box bottom-leftToRight" href="#" id="drop100-m" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <strong>Atendimento</strong> 
+                                        <i class="fas fa-angle-down"></i>
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-magazine" aria-labelledby="drop100-m">
+                                        <li><a class="dropdown-item" href="sobre.html">Sobre o CIESP</a></li>
+                                        <li><a class="dropdown-item" href="associe-se.html">Associe-se</a></li>
+                                        <li><a class="dropdown-item" href="boleto.html">2ª via do boleto associados</a></li>
+                                        <li><a class="dropdown-item" href="fale-conosco.html">Fale Conosco</a></li>
+                                        <li><a class="dropdown-item" href="faq.html">Perguntas Frequentes</a></li>
+                                        <li><a class="dropdown-item" href="imprensa.html">Imprensa</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" data-toggle="modal" data-target="#regionais" class="nav-link ui-box bottom-leftToRight"><strong>Diretorias Regionais</strong></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>     </div>
+<div class="container">
+    <div class="row mt-5 mb-5">
+        <div class="col-12">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item"><a href="#">Library</a></li>
+                <li class="breadcrumb-item active">Data</li>
+            </ol>
+
+            <h1 class="h1" itemprop="headline">Conheça as regionais</h1>
+
+            <div class="row mt-3 mb-5">
+                <div class="col-12">
+                    <div id="map-regional"></div>
+                </div>
+            </div>
+            <div class="row mt-5 mb-3">
+                <div class="col-12 col-md-4">
+                    <div class="list-group">
+                        <a href="conheca-as-regionais.html" class="list-group-item text-danger" target="_blank">Americana</a>
+                        <a href="conheca-as-regionais.html" class="list-group-item text-danger" target="_blank">Alta Noroeste</a>
+                        <a href="conheca-as-regionais.html" class="list-group-item text-danger" target="_blank">Araraquara</a>
+                        <a href="conheca-as-regionais.html" class="list-group-item text-danger" target="_blank">Bauru</a>
+                        <a href="conheca-as-regionais.html" class="list-group-item text-danger" target="_blank">Botucatu</a>
+                        <a href="conheca-as-regionais.html" class="list-group-item text-danger" target="_blank">Bragança Paulista</a>
+                        <a href="conheca-as-regionais.html" class="list-group-item text-danger" target="_blank">Campinas</a>
+                        <a href="conheca-as-regionais.html" class="list-group-item text-danger" target="_blank">Cotia</a>
+                        <a href="conheca-as-regionais.html" class="list-group-item text-danger" target="_blank">Cubatão</a>
+                        <a href="conheca-as-regionais.html" class="list-group-item text-danger" target="_blank">Diadema</a>
+                        <a href="conheca-as-regionais.html" class="list-group-item text-danger" target="_blank">Franca</a>
+                        <a href="conheca-as-regionais.html" class="list-group-item text-danger" target="_blank">Guarulhos</a>
+                        <a href="conheca-as-regionais.html" class="list-group-item text-danger" target="_blank">Indaiatuba</a>
+                        <a href="conheca-as-regionais.html" class="list-group-item text-danger" target="_blank">Jacarei</a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="list-group">
+                        <a href="conheca-as-regionais.html" class="list-group-item text-danger" target="_blank">Jaú</a>
+                        <a href="conheca-as-regionais.html" class="list-group-item text-danger" target="_blank">Jundiaí</a>
+                        <a href="conheca-as-regionais.html" class="list-group-item text-danger" target="_blank">Limeira</a>
+                        <a href="conheca-as-regionais.html" class="list-group-item text-danger" target="_blank">Alta Paulista</a>
+                        <a href="conheca-as-regionais.html" class="list-group-item text-danger" target="_blank">Matão</a>
+                        <a href="conheca-as-regionais.html" class="list-group-item text-danger" target="_blank">Alto Tietê</a>
+                        <a href="conheca-as-regionais.html" class="list-group-item text-danger" target="_blank">Castelo</a>
+                        <a href="conheca-as-regionais.html" class="list-group-item text-danger" target="_blank">Piracicaba</a>
+                        <a href="conheca-as-regionais.html" class="list-group-item text-danger" target="_blank">Presidente Prudente</a>
+                        <a href="conheca-as-regionais.html" class="list-group-item text-danger" target="_blank">Ribeirão Preto</a>
+                        <a href="conheca-as-regionais.html" class="list-group-item text-danger" target="_blank">Rio Claro</a>
+                        <a href="conheca-as-regionais.html" class="list-group-item text-danger" target="_blank">Santa Barbará d'Oeste</a>
+                        <a href="conheca-as-regionais.html" class="list-group-item text-danger" target="_blank">Santo André</a>
+                        <a href="conheca-as-regionais.html" class="list-group-item text-danger" target="_blank">Santos</a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="list-group">
+                        <a href="conheca-as-regionais.html" class="list-group-item text-danger" target="_blank">São Bernardo do Campo</a>
+                        <a href="conheca-as-regionais.html" class="list-group-item text-danger" target="_blank">São Caetano do Sul</a>
+                        <a href="conheca-as-regionais.html" class="list-group-item text-danger" target="_blank">São Carlos</a>
+                        <a href="conheca-as-regionais.html" class="list-group-item text-danger" target="_blank">São João da Boa Vista</a>
+                        <a href="conheca-as-regionais.html" class="list-group-item text-danger" target="_blank">Noroeste Paulista</a>
+                        <a href="conheca-as-regionais.html" class="list-group-item text-danger" target="_blank">São José dos Campos</a>
+                        <a href="conheca-as-regionais.html" class="list-group-item text-danger" target="_blank">São Paulo - Distrital Norte</a>
+                        <a href="conheca-as-regionais.html" class="list-group-item text-danger" target="_blank">São Paulo - Distrital Sul</a>
+                        <a href="conheca-as-regionais.html" class="list-group-item text-danger" target="_blank">São Paulo - Distrital Leste</a>
+                        <a href="conheca-as-regionais.html" class="list-group-item text-danger" target="_blank">São Paulo - Distrital Oeste</a>
+                        <a href="conheca-as-regionais.html" class="list-group-item text-danger" target="_blank">Sertãozinho</a>
+                        <a href="conheca-as-regionais.html" class="list-group-item text-danger" target="_blank">Sorocaba</a>
+                        <a href="conheca-as-regionais.html" class="list-group-item text-danger" target="_blank">Taubaté</a>
+                        <a href="conheca-as-regionais.html" class="list-group-item text-danger" target="_blank">Vale do Ribeira</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<footer class="footer footer-full-content d-print-none">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-2">
+                <a href="#" title=""><img src="https://cursos.ciesp.com.br/img/logo-ciesp.svg"></a>
+            </div>
+            <div class="col-12 col-lg-6">
+                <div itemscope itemtype="https://schema.org/Organization" class="description-top organization">
+                    <h4 itemprop="name">Edifício Sede CIESP</h4>
+                    <div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+                        <p><span itemprop="streetAddress">Av. Paulista, 1313</span>, <span itemprop="addressLocality">São Paulo/SP</span> - CEP: <span itemprop="postalCode">01311-923</span></p>
+                        <p>Telefone: <span itemprop="telephone">(11) 3549-3232</span> - E-mail: <span itemprop="email"><a href="mailto:atendimento@ciesp.org.br" title="atendimento@ciesp.org.br">atendimento@ciesp.org.br</a></span></p>
+                    </div>
+                </div> 
+            </div>
+            <div class="col-12 col-lg-4">
+                <form class="input-group form-search">
+                    <input placeholder="Buscar..." type="search" class="form-control">
+                    <div class="input-group-append">
+                        <button type="submit" class="btn btn-outline-secondary btn-transparent"><i class="fas fa-search"></i></button>
+                    </div>
+                </form> 
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="line"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-lg-3">
+                <h5>Áreas de atuação</h5>
+                <ul class="links">
+                    <li><a href="#">Comércio Exterior</a></li>
+                    <li><a href="#">Economia</a></li>
+                    <li><a href="#">Infraestrutura</a></li>
+                    <li><a href="#">Integração Regional</a></li>
+                    <li><a href="#">Jovens Empreendedores</a></li>
+                    <li><a href="#">Jurídico</a></li>
+                    <li><a href="#">Desenvolvimento Sustentável</a></li>
+                    <li><a href="#">Produtos e Serviços</a></li>
+                    <li><a href="#">Responsabilidade Social</a></li>
+                    <li><a href="#">Tecnologia e inovação</a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-lg-3">
+                <h5>Acesso Rápido</h5>
+                <ul class="links">
+                    <li><a href="#">2ª via do boleto associados</a></li>
+                    <li><a href="#">Associe-se</a></li>
+                    <li><a href="#">Câmara de Arbitragem</a></li>
+                    <li><a href="#">Posto Jucesp</a></li>
+                    <li><a href="#">Certificado Digital</a></li>
+                    <li><a href="#">Jurômetro</a></li>
+                    <li><a href="#">Cursos</a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-lg-3">
+                <h5>Encontre o que procura</h5>
+                <ul class="links">
+                    <li><a href="#">Serviços</a></li>
+                    <li><a href="#">Agenda</a></li>
+                    <li><a href="#">Notícias</a></li>
+                    <li><a href="#">Pesquisas e Publicações</a></li>
+                    <li><a href="#">Cursos</a></li>
+                    <li><a href="#">Multimídia</a></li>
+                    <li><a href="#">Associe-se</a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-lg-3">
+                <h5>Sobre o CIESP</h5>
+                <ul class="links">
+                    <li><a href="#">Áreas de Atuação</a></li>
+                    <li><a href="#">História</a></li>
+                    <li><a href="#">Conselho Industrial</a></li>
+                    <li><a href="#">Diretoria CIESP</a></li>
+                    <li><a href="#">Assessoria de Imprensa</a></li>
+                    <li><a href="#">Fale Conosco</a></li>
+                    <li><a href="#">Perguntas Frequentes</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="line"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-lg-6">
+                <p class="copy">&copy; 2021 CIESP - Todos os direitos reservados.</p>
+            </div>
+            <div class="text-right col-12 col-lg-6">
+                <ul class="menu">
+                    <li><a href="#">Fale Conosco</a></li>
+                    <li><a href="#">Links Úteis</a></li>
+                    <li><a href="#">Política de Privacidade</a></li>
+                    <li><a href="#">Termos de Serviço</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="stop" class="to-top">
+        <div class="fa fa-arrow-up" aria-hidden="true" title="Voltar ao Topo"></div>
+    </div>
+</footer>
+
+
+
+<!-- navbar de cookies -->
+<nav class="fixed-bottom bg-light navbar-cookies" id="navbar-cookies">
+    <div class="body">
+        <div class="description">
+            <p>Para melhorar a sua experiência no site utilizamos cookies para personalizar conteúdo e anúncios.</p>
+            <p>Clique em Aceitar e fechar para consentir a utilização dos cookies, visite a <a href="#">política de privacidade</a> para mais informações ou faça <a href="#" id="cookies-details">aqui</a> a Gestão de Cookies.</p>
+        </div>
+        <div class="action">
+            <a target="_blank" rel="noopener noreferrer" class="btn btn-success btn-block animated shake" href="#" id="cookies-accept">Aceitar e continuar</a>
+        </div>
+    </div>
+    <ul class="details" id="cookies-details-list">
+        <li>
+            <strong>Google Analytics</strong> <span>Necessário</span>
+        </li>
+        <li>
+            <strong>Personalização</strong> <span>Necessário</span>
+        </li>
+        <li>
+            <strong>Conservação e acesso a informações</strong>
+            <div class="custom-control custom-switch">
+                <input type="checkbox" class="custom-control-input" id="cookie-conservacao" checked>
+                <label class="custom-control-label" for="cookie-conservacao">&nbsp;</label>
+            </div>
+        </li>
+        <li>
+            <strong>Seleção, disponibilização, comunicação de anúncios</strong>
+            <div class="custom-control custom-switch">
+                <input type="checkbox" class="custom-control-input" id="cookie-anuncios" checked>
+                <label class="custom-control-label" for="cookie-anuncios">&nbsp;</label>
+            </div>
+        </li>
+        <li>
+            <strong>Seleção, disponibilização, comunicação de conteúdo</strong>
+            <div class="custom-control custom-switch">
+                <input type="checkbox" class="custom-control-input" id="cookie-conteudo" checked>
+                <label class="custom-control-label" for="cookie-conteudo">&nbsp;</label>
+            </div>
+        </li>
+    </ul>
+</nav>
+<!--/ navbar de cookies -->
+
+
+<!-- modal de regionais -->
+<div class="modal fade" id="regionais" tabindex="-1" aria-labelledby="regionais" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="regionais-label">Diretorias Regionais</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body p-5">
+          <div class="container">
+            <div class="row">
+                <div class="col-12">
+
+                    <table class="table table-bordered table-striped table-datatables" id="table-regionais">
+                        <thead class="thead-dark">
+                          <tr>
+                            <th scope="col">Website</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td><a href="http://www.ciesp.com.br/conheca-as-regionais/regional-americana/"  class="text-danger" target="_blank">Americana</a></td>
+                          </tr>
+                          <tr>
+                            <td><a href="http://www.ciesp.com.br/conheca-as-regionais/regional-aracatuba/" class="text-danger" target="_blank">Araçatuba</a></td>
+                          </tr>
+                          <tr>
+                            <td><a href="http://www.ciesp.com.br/conheca-as-regionais/regional-americana/" class="text-danger" target="_blank">Alta Noroeste</a></td>
+                          </tr>
+                          <tr>
+                            <td><a href="http://www.ciesp.com.br/conheca-as-regionais/regional-americana/" class="text-danger" target="_blank">Araraquara</a></td>
+                          </tr>
+                          <tr>
+                            <td><a href="http://www.ciesp.com.br/conheca-as-regionais/regional-americana/" class="text-danger" target="_blank">Bauru</a></td>
+                          </tr>
+                          <tr>
+                            <td><a href="http://www.ciesp.com.br/conheca-as-regionais/regional-americana/" class="text-danger" arget="_blank">Botucatu</a></td>
+                          </tr>
+                          <tr>
+                            <td><a href="http://www.ciesp.com.br/conheca-as-regionais/regional-americana/" class="text-danger" target="_blank">Bragança Paulista</a></td>
+                          </tr>
+                          <tr>
+                            <td><a href="http://www.ciesp.com.br/conheca-as-regionais/regional-americana/" class="text-danger" target="_blank">Campina</a></td>
+                          </tr>
+                          <tr>
+                            <td><a href="http://www.ciesp.com.br/conheca-as-regionais/regional-americana/" class="text-danger" target="_blank">Cotia</a></td>
+                          </tr>
+                          <tr>
+                            <td><a href="http://www.ciesp.com.br/conheca-as-regionais/regional-americana/" class="text-danger" target="_blank">Diadema</a></td>
+                          </tr>
+                          <tr>
+                            <td><a href="http://www.ciesp.com.br/conheca-as-regionais/regional-americana/" class="text-danger" target="_blank">Distrital Leste</a></td>
+                          </tr>
+                        </tbody>
+                    </table>
+                </div><!-- col-12 -->
+            </div><!-- row -->
+        </div><!-- container -->
+      </div><!-- modal-body -->
+    </div><!-- modal-content -->
+  </div><!-- modal-dialog -->
+</div>
+<!-- /modal de regionais -->
+
+<!-- Modal -->
+<div class="modal fade" id="modalArea" tabindex="-1" role="dialog" aria-labelledby="ModalArea" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="ModalAreaLabel">Áreas de Atuação</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body p-5">
+            <ul class="nav nav-pills nav-fill">
+                <li class="nav-item">
+                  <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Áreas de Atuação</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Acesso Rápido</a>
+                </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                    <table class="table table-bordered table-striped table-datatables" id="table-areas">
+                        <thead class="thead-dark">
+                          <tr>
+                            <th scope="col">Áreas de Atuação</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td><a href="#"  class="text-danger" target="_blank">Comércio Exterior</a></td>
+                          </tr>
+                          <tr>
+                            <td><a href="#"  class="text-danger" target="_blank">Economia</a></td>
+                          </tr>
+                          <tr>
+                            <td><a href="#"  class="text-danger" target="_blank">Infraestrutura</a></td>
+                          </tr>
+                          <tr>
+                            <td><a href="#"  class="text-danger" target="_blank">Integração Regional</a></td>
+                          </tr>
+                          <tr>
+                            <td><a href="#"  class="text-danger" target="_blank">Jovens Empreendedores</a></td>
+                          </tr>
+                          <tr>
+                            <td><a href="#"  class="text-danger" target="_blank">Jurídico</a></td>
+                          </tr>
+                          <tr>
+                            <td><a href="#"  class="text-danger" target="_blank">Desenvolvimento Sustentável</a></td>
+                          </tr>
+                          <tr>
+                            <td><a href="#"  class="text-danger" target="_blank">Construção e Mineração</a></td>
+                          </tr>
+                          <tr>
+                            <td><a href="#"  class="text-danger" target="_blank">Produtos e Serviços</a></td>
+                          </tr>
+                          <tr>
+                            <td><a href="#"  class="text-danger" target="_blank">Responsabilidade Social</a></td>
+                          </tr>
+                          <tr>
+                            <td><a href="#"  class="text-danger" target="_blank">Tecnologia e inovação</a></td>
+                          </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                    <table class="table table-bordered table-striped table-datatables" id="table-regionais">
+                        <thead class="thead-dark">
+                          <tr>
+                            <th scope="col">Acesso Rápido</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td><a href="#"  class="text-danger" target="_blank">2ª via do boleto associados</a></td>
+                          </tr>
+                          <tr>
+                            <td><a href="#"  class="text-danger" target="_blank">Associe-se</a></td>
+                          </tr>
+                          <tr>
+                            <td><a href="#"  class="text-danger" target="_blank">Câmara de Arbitragem</a></td>
+                          </tr>
+                          <tr>
+                            <td><a href="#"  class="text-danger" target="_blank">Posto Jucesp</a></td>
+                          </tr>
+                          <tr>
+                            <td><a href="#"  class="text-danger" target="_blank">Certificado Digital</a></td>
+                          </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<script type="text/javascript" src="https://addevent.com/libs/atc/1.6.1/atc.min.js" async defer></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCpZDY57n9aEamcXo2onfs7tVi0SQYp-tk"></script>
+<script src="https://www.bing.com/api/maps/mapcontrol?key=AvHQ4hEFIjfYDtcqurSySk9gRHwgGfGjoYI6NXZIOsAlhV3PT0BnkRkY9nHUweBw"></script>
+<script src="assets/js/uikit.js"></script>
+<script src="assets/js/map-regionais.js"></script>
+<script src="assets/js/busca-google.js"></script>
+<script src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.24/js/dataTables.bootstrap4.min.js"></script>
+<script>
+$(document).ready(function() {
+    $('.table-datatables').DataTable( {
+        "language": {
+            "lengthMenu": "Mostrando _MENU_ itens por página",
+            "zeroRecords": "Nada encontrado",
+            "info": "Mostrando página _PAGE_ de _PAGES_",
+            "infoEmpty": "Sem resultados",
+            "infoFiltered": "(filtrado de _MAX_ total de registros)",
+            "sSearch": "Buscar",
+            "sLoadingRecords": 	"Carregando...",
+	        "sProcessing":   	"Carregando...",
+            "oPaginate": {
+                "sFirst":    	"Primeiro",
+                "sPrevious": 	"Anterior",
+                "sNext":     	"Próximo",
+                "sLast":     	"Último"
+            },
+        }
+    });
+});
+</script>
+</body>
+</html>
